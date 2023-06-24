@@ -1,0 +1,23 @@
+
+
+
+.parallax-effect {
+    transform-style: preserve-3d;
+    border-radius: 30px;
+    border: 5px solid rgba(255, 94, 0, 0.76);
+    background-color:rgba(2, 20, 34, 0.89);
+    border: 2px solid cyan;
+    background: repeating-linear-gradient(
+    45deg,
+    #00161a9f,
+    #00161a9f 35px,
+    #032935a1 35px,
+    #032935a1 70px
+  );
+
+  }
+
+  .inner-element-skill {
+    transform: translateZ(40px) scale(0.8); 
+    margin-top: 15px;
+  }
