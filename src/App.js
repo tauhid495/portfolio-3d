@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import "./App.css";
 import About from "./components/About";
 import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects";
 import MySkills from "./components/MySkills";
 import { FaFan } from "react-icons/fa";
@@ -29,6 +30,7 @@ function App() {
         </div>
 
         <div className="container mx-auto">
+          {/* <Navbar /> */}
           <Navbar />
           <Hero setSpean={setSpean} />
           <div className={`${spean ? "hidden" : null}`}>

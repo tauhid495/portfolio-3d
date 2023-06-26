@@ -53,10 +53,6 @@ const Hero = ({ setSpean }) => {
           />
         </Canvas>
       </div>
-
-      {/* <div className='w-[340px]  md:p-0 md:w-7/12 h-[500px] md:h-full relative'>
-                <BannerImg />
-            </div> */}
     </div>
   );
 };

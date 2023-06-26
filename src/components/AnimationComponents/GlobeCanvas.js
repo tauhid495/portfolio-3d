@@ -28,6 +28,15 @@ const EarthCanvas = () => {
       camera={{ position: [20, -3, -5], fov: 30 }}
       gl={{ preserveDrawingBuffer: true }}
     >
+      {/* <Stars
+        radius={100}
+        depth={50}
+        count={5000}
+        factor={4}
+        saturation={0}
+        fade={false}
+        speed={1}
+      /> */}
       <Suspense>
         <OrbitControls
           autoRotate={true}

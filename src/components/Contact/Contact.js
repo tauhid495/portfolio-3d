@@ -77,51 +77,38 @@ export const ContactUs = () => {
 
       <div className="grid3">
         <section className="form-body">
+          <h1>Fell Free To Write</h1>
           <form ref={form} onSubmit={sendEmail} className="form">
-            <div className="">
-              <label className="">
-                <span className="">Your Name</span>
+            <div>
+              <label>
+                <span>Your Name</span>
               </label>
-              <input type="text" name="name" placeholder="Name" className="" />
+              <input type="text" name="name" />
             </div>
 
-            <div className="">
-              <label className="">
-                <span className="">Your Email</span>
+            <div>
+              <label>
+                <span>Your Email</span>
               </label>
-              <input
-                type="text"
-                name="Email"
-                placeholder="email"
-                className=" "
-              />
+              <input type="text" name="Email" />
             </div>
 
-            <div className="">
-              <label className="">
-                <span className="">Subject</span>
+            <div>
+              <label>
+                <span>Subject</span>
               </label>
-              <input
-                type="text"
-                name="Subject"
-                placeholder="subject"
-                className=" "
-              />
+              <input type="text" name="Subject" />
             </div>
 
-            <div className="">
-              <label className="">
-                <span className="">Message</span>
+            <div>
+              <label>
+                <span>Message</span>
               </label>
-              <textarea
-                className=" "
-                name="message"
-                placeholder="Message"
-              ></textarea>
+              <textarea name="message" />
             </div>
 
-            <div type="submit" className="">
-              <button className=" ">Send</button>
+            <div type="submit">
+              <button>Send message</button>
             </div>
           </form>
         </section>

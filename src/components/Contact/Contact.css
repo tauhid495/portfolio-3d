@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 0.5fr 5fr 5fr;
   align-items: center;
-  overflow: hidden;
+  /* overflow: hidden; */
   scroll-snap-align: center;
   height: 100vh;
 }
@@ -27,16 +27,46 @@
   z-index: -1;
 }
 
+.form-body h1 {
+  text-align: center;
+  color: cyan;
+}
+
+form {
+  padding-right: 5px;
+}
+
 form div {
   display: flex;
   flex-direction: column;
   margin: 15px 0px;
 }
 
-input {
+form div input {
   height: 40px;
   width: 100%;
-  border-radius: 5px;
+  border-bottom: 1px dashed gray;
+  background: none;
+}
+
+form div textarea {
+  width: 100%;
+  border-bottom: 1px dashed gray;
+  background: none;
+}
+
+form div button {
+  border: 1px solid cyan;
+  height: 40px;
+  width: 150px;
+  border-radius: 7px;
+  color: cyan;
+  margin: 5px auto;
+}
+button:hover {
+  background: cyan;
+  color: black;
+  font-weight: bold;
 }
 
 .contact-icon {
