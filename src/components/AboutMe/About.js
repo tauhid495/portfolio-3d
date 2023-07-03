@@ -1,5 +1,5 @@
 import React from "react";
-import ProfileTilt from "./AnimationComponents/ProfileTilt";
+import ProfileTilt from "../AnimationComponents/ProfileTilt";
 import Tilt from "react-parallax-tilt";
 
 const About = () => {

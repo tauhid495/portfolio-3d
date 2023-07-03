@@ -2,14 +2,8 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import EarthCanvas from "../AnimationComponents/GlobeCanvas";
 import "./Contact.css";
-import { SiLinkedin } from "react-icons/si";
-import { FaGithub, FaTwitter } from "react-icons/fa";
-import {
-  MdEmail,
-  MdFacebook,
-  MdLocationOn,
-  MdWifiCalling3,
-} from "react-icons/md";
+
+import { Icon } from "@iconify/react";
 
 export const ContactUs = () => {
   const form = useRef();
@@ -41,36 +35,59 @@ export const ContactUs = () => {
       <div className="grid1">
         <div>
           <a href="https://www.linkedin.com/in/shahidul-islam-224049149/">
-            <SiLinkedin className="social-icon" />
+            <Icon
+              icon="et:linkedin"
+              width="55"
+              height="55"
+              className="social-icon"
+            />
           </a>
         </div>
         <div>
           <a href="https://www.facebook.com/tauhid.49">
-            <MdFacebook className="social-icon" />
+            <Icon
+              icon="et:facebook"
+              width="55"
+              height="55"
+              className="social-icon"
+            />
           </a>
         </div>
         <div>
           <a href="https://github.com/tauhid495">
-            <FaGithub className="social-icon" />
+            <Icon
+              icon="akar-icons:github-outline-fill"
+              width="55"
+              height="55"
+              className="social-icon"
+            />
           </a>
         </div>
         <div>
           <a href="https://twitter.com/tauhid495">
-            <FaTwitter className="social-icon" />
+            <Icon
+              icon="et:twitter"
+              width="55"
+              height="55"
+              className="social-icon"
+            />
           </a>
         </div>
       </div>
       <div className="grid2">
         <div>
           <h1>Contact With Me</h1>
-          <MdLocationOn className="contact-icon" />
+          <Icon icon="system-uicons:location" className="contact-icon" />
           <p>Pabna Sadar, Pabna, Bangladesh</p>
-          <MdEmail className="contact-icon" />
+          <Icon icon="system-uicons:mail" className="contact-icon" />
           <p>
             shahidul.islam.1691.bd@gmail.com <br />
             tauhid495@gmail.com
           </p>
-          <MdWifiCalling3 className="contact-icon" />
+          <Icon
+            icon="material-symbols:wifi-calling-1-outline-rounded"
+            className="contact-icon"
+          />
           <p>Contact No. +880 1755338813</p>
         </div>
       </div>

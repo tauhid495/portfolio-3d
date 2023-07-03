@@ -60,7 +60,7 @@ export default class MySkills extends Component {
     };
 
     return (
-      <div className="snap-center md:h-screen w-full flex flex-col-reverse md:flex-row overflow-hidden pt-20">
+      <div className="skill-main">
         <div className="md:w-1/2 md:px-10">
           <div className="text-xs md:text-lg">
             <h1 className="hidden md:block text-5xl font-semibold md:my-16">
@@ -149,7 +149,6 @@ export default class MySkills extends Component {
             perspective={800}
             glareEnable={true}
             glareMaxOpacity={0.45}
-            // glarePosition="all"
             transitionSpeed={1500}
             scale={1.02}
           >

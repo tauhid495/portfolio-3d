@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import About from "./components/About";
+
 import Hero from "./components/Hero";
 // import Navbar from "./components/Navbar";
 import Navbar from "./components/Navbar/Navbar";
@@ -9,6 +9,8 @@ import MySkills from "./components/MySkills";
 import { FaFan } from "react-icons/fa";
 import Contact from "./components/Contact/Contact";
 import bg from "./components/asset/bg.jpg";
+import TestPage from "./components/TestPage";
+import About from "./components/AboutMe/About";
 
 function App() {
   const [spean, setSpean] = useState(false);
@@ -20,7 +22,7 @@ function App() {
         src={bg}
         alt="ima"
       />
-      <div className="App text-base-100 md:h-screen  scroll-smooth overflow-y-auto md:px-24 w-full mx-auto relative ">
+      <div className="App text-base-100 md:h-screen  overflow-y-auto md:px-24 w-full mx-auto relative ">
         <div
           className={`${
             spean ? null : "hidden"
@@ -38,6 +40,7 @@ function App() {
             <MySkills />
             <Projects />
             <Contact />
+            <TestPage />
           </div>
         </div>
       </div>

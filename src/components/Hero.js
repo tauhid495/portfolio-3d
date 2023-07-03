@@ -5,6 +5,8 @@ import BannerText from "./AnimationComponents/BannerText";
 import { OrbitControls, Sparkles } from "@react-three/drei";
 import Jump from "./AnimationComponents/Jump";
 import Circle from "./AnimationComponents/Circle";
+import Mouse from "./AnimationComponents/Mouse/Mouse";
+import { Icon } from "@iconify/react";
 
 const Hero = ({ setSpean }) => {
   return (
@@ -31,6 +33,40 @@ const Hero = ({ setSpean }) => {
         >
           My resume
         </a>
+        <div className="flex">
+          <div>
+            <a href="https://www.linkedin.com/in/shahidul-islam-224049149/">
+              <Icon
+                icon="et:linkedin"
+                className="w-10 h-10 mx-3 mt-6 text-cyan-400"
+              />
+            </a>
+          </div>
+          <div>
+            <a href="https://www.facebook.com/tauhid.49">
+              <Icon
+                icon="et:facebook"
+                className="w-10 h-10 mx-3 mt-6 text-cyan-400"
+              />
+            </a>
+          </div>
+          <div>
+            <a href="https://github.com/tauhid495">
+              <Icon
+                icon="akar-icons:github-outline-fill"
+                className="w-10 h-10 mx-3 mt-6 text-cyan-400"
+              />
+            </a>
+          </div>
+          <div>
+            <a href="https://twitter.com/tauhid495">
+              <Icon
+                icon="et:twitter"
+                className="w-10 h-10 mx-3 mt-6 text-cyan-400"
+              />
+            </a>
+          </div>
+        </div>
       </div>
       <div className="md:w-1/2 px-10 z-10 backdrop-blur-[2px]">
         <Circle />
@@ -53,6 +89,9 @@ const Hero = ({ setSpean }) => {
           />
         </Canvas>
       </div>
+      <a href="/#" className="absolute bottom-10 left-1/2">
+        <Mouse />
+      </a>
     </div>
   );
 };

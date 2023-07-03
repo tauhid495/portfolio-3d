@@ -15,6 +15,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
 import { EffectFade, Mousewheel, Pagination } from "swiper";
+import Mouse from "./AnimationComponents/Mouse/Mouse";
 
 const Projects = () => {
   // store swiper instances
@@ -78,10 +79,10 @@ const Projects = () => {
 
       {/* second slider */}
       <div className="project2">
-        <div class="mouse">
-          <div class="roll"></div>
-          <div class="rollshadow"></div>
+        <div>
+          <Mouse />
         </div>
+
         <Swiper
           effect={"coverflow"}
           direction={"vertical"}

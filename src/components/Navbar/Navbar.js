@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import "./Navbar.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { Icon } from "@iconify/react";
 
 const Navbar = () => {
   const navRef = useRef();
@@ -14,15 +13,16 @@ const Navbar = () => {
       <h3>Logo</h3>
       <nav ref={navRef}>
         <a href="/#">Home</a>
-        <a href="/#">Home</a>
-        <a href="/#">Home</a>
-        <a href="/#">Home</a>
+        <a href="/#">About</a>
+        <a href="/#">Skills</a>
+        <a href="/#">Projects</a>
+        <a href="/#">Contact</a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-          <FontAwesomeIcon icon={faXmark} />
+          <Icon icon="iconamoon:close-bold" width="30" height="30" />
         </button>
       </nav>
       <button className="nav-btn" onClick={showNavbar}>
-        <FontAwesomeIcon icon={faBars} />
+        <Icon icon="humbleicons:bars" width="25" height="25" />
       </button>
     </header>
   );

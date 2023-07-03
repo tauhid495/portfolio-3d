@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 0.5fr 5fr 5fr;
   align-items: center;
-  /* overflow: hidden; */
+  overflow: hidden;
   scroll-snap-align: center;
   height: 100vh;
 }
@@ -84,4 +84,10 @@ button:hover {
   height: 100%;
   margin: 20px auto 0px auto;
   color: cyan;
+}
+.social-icon:hover {
+  color: black;
+  background-color: cyan;
+  border: 2px solid cyan;
+  border-radius: 5px;
 }
