@@ -1,0 +1,60 @@
+.parallax-effect-img {
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  background-image: url("../asset/tilt-bgt.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 40px;
+  border: 5px solid rgba(255, 94, 0, 0.76);
+  width: 350px;
+  height: 350px;
+}
+
+.inner-element {
+  transform: translateZ(30px) scale(0.8);
+  width: 90%;
+  margin-top: 15px;
+}
+
+.inner-element2 {
+  transform: translateZ(50px);
+  background-color: rgba(189, 30, 2, 0.938);
+  height: 50px;
+  width: 322px;
+  text-align: center;
+  margin-top: -12.5%;
+  margin-left: 10px;
+  border-radius: 0 0 35px 35px;
+  line-height: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-element3 {
+  width: 100%;
+  background-color: rgba(189, 30, 2, 0.938);
+  height: 55px;
+  border-radius: 0 0 35px 35px;
+  bottom: 0px;
+}
+
+.card-element {
+  transform-style: preserve-3d;
+  width: 230px;
+  height: 230px;
+  background-color: rgba(0, 141, 151, 0.5);
+  border: 2px solid cyan;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.inner-text {
+  transform: translateZ(30px);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
