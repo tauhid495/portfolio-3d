@@ -10,7 +10,7 @@ const Navbar = () => {
   };
   return (
     <header className="navmain">
-      <h3>Logo</h3>
+      <h2 className="greeting">Greetings from Shahid!</h2>
       <nav ref={navRef}>
         <a href="/#">Home</a>
         <a href="/#">About</a>

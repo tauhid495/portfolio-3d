@@ -23,7 +23,7 @@ const Projects = () => {
   const [secondSwiper, setSecondSwiper] = useState(null);
 
   return (
-    <main className="snap-center project">
+    <main className=" project">
       <div>
         {/* main slide */}
         <Swiper

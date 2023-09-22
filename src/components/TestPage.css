@@ -1,6 +1,5 @@
 .testmain {
   background-color: gray;
-  scroll-snap-align: center;
   height: 100vh;
   padding: 90px;
 }

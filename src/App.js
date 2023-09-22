@@ -5,7 +5,7 @@ import Hero from "./components/Hero";
 // import Navbar from "./components/Navbar";
 import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects";
-import MySkills from "./components/MySkills";
+import MySkills from "./components/MySkills/MySkills";
 import { FaFan } from "react-icons/fa";
 import Contact from "./components/Contact/Contact";
 import bg from "./components/asset/bg.jpg";

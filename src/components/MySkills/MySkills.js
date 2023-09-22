@@ -63,11 +63,16 @@ export default class MySkills extends Component {
       <div className="skill-main">
         <div className="md:w-1/2 md:px-10">
           <div className="text-xs md:text-lg">
-            <h1 className="hidden md:block text-5xl font-semibold md:my-16">
+            <h1 className="hidden md:block text-5xl font-semibold md:my-10">
               My Skills
             </h1>
-
+            <p className="mb-16">
+              Here you will find more information about my current skills mostly
+              in terms of programming and technology.
+            </p>
+            <hr />
             <Slider
+            className="my-3"
               {...settings}
               asNavFor={this.state.nav1}
               ref={(slider) => (this.slider2 = slider)}
@@ -134,6 +139,7 @@ export default class MySkills extends Component {
                 <p> VsCode</p>
               </div>
             </Slider>
+            <hr />
           </div>
         </div>
 

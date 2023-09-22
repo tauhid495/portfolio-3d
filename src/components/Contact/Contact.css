@@ -3,7 +3,6 @@
   grid-template-columns: 0.5fr 5fr 5fr;
   align-items: center;
   overflow: hidden;
-  scroll-snap-align: center;
   height: 100vh;
 }
 

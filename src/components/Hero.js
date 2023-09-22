@@ -10,7 +10,7 @@ import { Icon } from "@iconify/react";
 
 const Hero = ({ setSpean }) => {
   return (
-    <div className="snap-center md:flex items-center h-screen mx-auto md:px-5 relative overflow-hidden">
+    <div className="md:flex items-center h-screen mx-auto md:px-5 relative overflow-hidden">
       <div className="md:w-1/2  z-30">
         <p className="text-4xl md:text-6xl font-semibold">
           <Jump />
@@ -89,7 +89,7 @@ const Hero = ({ setSpean }) => {
           />
         </Canvas>
       </div>
-      <a href="/#" className="absolute bottom-10 left-1/2">
+      <a href="/#" className="absolute bottom-10 left-1/2 cursor-pointer z-50">
         <Mouse />
       </a>
     </div>
