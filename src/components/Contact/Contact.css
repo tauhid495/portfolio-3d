@@ -1,20 +1,31 @@
 .contact {
   display: grid;
   grid-template-columns: 0.5fr 5fr 5fr;
-  align-items: center;
+  align-items: start;
   overflow: hidden;
   height: 100vh;
+  padding-top:7rem;
+}
+
+.grid1{
+  margin-top: 4rem;
 }
 
 .grid2 {
   flex: 40%;
+  justify-content: start;
   z-index: 10;
   text-align: center;
+}
+.grid2 > div > h1{
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .grid3 {
   flex: 60%;
   position: relative;
+  margin-top: .9rem;
 }
 
 .globe {
@@ -75,8 +86,6 @@ button:hover {
   color: cyan;
 }
 
-.grid1 {
-}
 
 .social-icon {
   width: 100%;

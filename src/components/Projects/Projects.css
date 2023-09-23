@@ -15,11 +15,11 @@
 
 .slider2 {
   width: 100%;
-  height: 360px;
+  height: 420px;
 }
 .slider2 div {
   margin-bottom: 10px;
-  height: 110px !important;
+  height: 130px !important;
 }
 .slider2 div img {
   height: 100%;
@@ -31,9 +31,27 @@
   position: absolute !important;
   top: calc(50% - 20%);
   right: 0%;
-  width: 20%;
+  width: 25%;
   height: 45%;
   display: flex;
   z-index: 50;
   align-items: center;
+}
+
+.slider-text{
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 5%;
+  filter: opacity(.3);
+  padding: 15px;
+  border-radius: 15px;
+  transition: all .8s;
+}
+.slider-text:hover{
+  filter: opacity(1);
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.slider-text > h1{
+  color: cyan;
 }

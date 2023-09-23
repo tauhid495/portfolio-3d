@@ -10,7 +10,10 @@ import { Icon } from "@iconify/react";
 
 const Hero = ({ setSpean }) => {
   return (
-    <div className="md:flex items-center h-screen mx-auto md:px-5 relative overflow-hidden">
+    <div
+      id="hero"
+      className="md:flex items-center h-screen mx-auto md:px-5 relative overflow-hidden"
+    >
       <div className="md:w-1/2  z-30">
         <p className="text-4xl md:text-6xl font-semibold">
           <Jump />
@@ -35,7 +38,10 @@ const Hero = ({ setSpean }) => {
         </a>
         <div className="flex">
           <div>
-            <a href="https://www.linkedin.com/in/shahidul-islam-224049149/">
+            <a
+              href="https://www.linkedin.com/in/shahidul-islam-224049149/"
+              target="blank"
+            >
               <Icon
                 icon="et:linkedin"
                 className="w-10 h-10 mx-3 mt-6 text-cyan-400"
@@ -43,7 +49,7 @@ const Hero = ({ setSpean }) => {
             </a>
           </div>
           <div>
-            <a href="https://www.facebook.com/tauhid.49">
+            <a href="https://www.facebook.com/tauhid.49" target="blank">
               <Icon
                 icon="et:facebook"
                 className="w-10 h-10 mx-3 mt-6 text-cyan-400"
@@ -51,7 +57,7 @@ const Hero = ({ setSpean }) => {
             </a>
           </div>
           <div>
-            <a href="https://github.com/tauhid495">
+            <a href="https://github.com/tauhid495" target="blank">
               <Icon
                 icon="akar-icons:github-outline-fill"
                 className="w-10 h-10 mx-3 mt-6 text-cyan-400"
@@ -59,7 +65,7 @@ const Hero = ({ setSpean }) => {
             </a>
           </div>
           <div>
-            <a href="https://twitter.com/tauhid495">
+            <a href="https://twitter.com/tauhid495" target="blank">
               <Icon
                 icon="et:twitter"
                 className="w-10 h-10 mx-3 mt-6 text-cyan-400"
@@ -89,7 +95,10 @@ const Hero = ({ setSpean }) => {
           />
         </Canvas>
       </div>
-      <a href="/#" className="absolute bottom-10 left-1/2 cursor-pointer z-50">
+      <a
+        href="#about"
+        className="absolute bottom-16 left-1/2 cursor-pointer z-50"
+      >
         <Mouse />
       </a>
     </div>

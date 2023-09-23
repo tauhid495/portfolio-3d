@@ -12,11 +12,11 @@ const Navbar = () => {
     <header className="navmain">
       <h2 className="greeting">Greetings from Shahid!</h2>
       <nav ref={navRef}>
-        <a href="/#">Home</a>
-        <a href="/#">About</a>
-        <a href="/#">Skills</a>
-        <a href="/#">Projects</a>
-        <a href="/#">Contact</a>
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skill">Skills</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <Icon icon="iconamoon:close-bold" width="30" height="30" />
         </button>

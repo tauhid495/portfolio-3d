@@ -30,11 +30,14 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       {/* sodial icons */}
       <div className="grid1">
         <div>
-          <a href="https://www.linkedin.com/in/shahidul-islam-224049149/">
+          <a
+            href="https://www.linkedin.com/in/shahidul-islam-224049149/"
+            target="blank"
+          >
             <Icon
               icon="et:linkedin"
               width="55"
@@ -44,7 +47,7 @@ export const ContactUs = () => {
           </a>
         </div>
         <div>
-          <a href="https://www.facebook.com/tauhid.49">
+          <a href="https://www.facebook.com/tauhid.49" target="blank">
             <Icon
               icon="et:facebook"
               width="55"
@@ -54,7 +57,7 @@ export const ContactUs = () => {
           </a>
         </div>
         <div>
-          <a href="https://github.com/tauhid495">
+          <a href="https://github.com/tauhid495" target="blank">
             <Icon
               icon="akar-icons:github-outline-fill"
               width="55"
@@ -64,7 +67,7 @@ export const ContactUs = () => {
           </a>
         </div>
         <div>
-          <a href="https://twitter.com/tauhid495">
+          <a href="https://twitter.com/tauhid495" target="blank">
             <Icon
               icon="et:twitter"
               width="55"
@@ -81,8 +84,11 @@ export const ContactUs = () => {
           <p>Pabna Sadar, Pabna, Bangladesh</p>
           <Icon icon="system-uicons:mail" className="contact-icon" />
           <p>
-            shahidul.islam.1691.bd@gmail.com <br />
-            tauhid495@gmail.com
+            <a href="mailto:shahidul.islam.1691.bd@gmail.com">
+              shahidul.islam.1691.bd@gmail.com
+            </a>{" "}
+            <br />
+            <a href="mailto:tauhid495@gmail.com">tauhid495@gmail.com</a>
           </p>
           <Icon
             icon="material-symbols:wifi-calling-1-outline-rounded"

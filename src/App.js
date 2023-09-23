@@ -4,12 +4,11 @@ import "./App.css";
 import Hero from "./components/Hero";
 // import Navbar from "./components/Navbar";
 import Navbar from "./components/Navbar/Navbar";
-import Projects from "./components/Projects";
+import Projects from "./components/Projects/Projects";
 import MySkills from "./components/MySkills/MySkills";
 import { FaFan } from "react-icons/fa";
 import Contact from "./components/Contact/Contact";
 import bg from "./components/asset/bg.jpg";
-import TestPage from "./components/TestPage";
 import About from "./components/AboutMe/About";
 
 function App() {
@@ -32,7 +31,6 @@ function App() {
         </div>
 
         <div className="container mx-auto">
-          {/* <Navbar /> */}
           <Navbar />
           <Hero setSpean={setSpean} />
           <div className={`${spean ? "hidden" : null}`}>
@@ -40,7 +38,6 @@ function App() {
             <MySkills />
             <Projects />
             <Contact />
-            <TestPage />
           </div>
         </div>
       </div>

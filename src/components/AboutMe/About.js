@@ -5,7 +5,7 @@ import "./aboutMe.css";
 
 const About = () => {
   return (
-    <div className=" md:h-screen w-full pt-7 md:flex items-center overflow-hidden">
+    <div id="about" className=" md:h-screen w-full pt-7 md:flex items-center ">
       <div className="md:w-5/12 pr-5">
         <ProfileTilt />
       </div>
