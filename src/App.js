@@ -15,7 +15,7 @@ function App() {
   const [spean, setSpean] = useState(false);
 
   return (
-    <div className="relative">
+    <div className="relative pl-5">
       <img
         className="absolute top-0 left-0 w-full h-full object-cover -z-40"
         src={bg}

@@ -1,10 +1,10 @@
 .contact {
   display: grid;
   grid-template-columns: 0.5fr 5fr 5fr;
-  align-items: start;
+  align-items: center;
   overflow: hidden;
-  height: 100vh;
-  padding-top:7rem;
+  scroll-snap-align: center;
+  min-height: 100vh;
 }
 
 .grid1{
@@ -33,13 +33,15 @@
   top: 0%;
   left: 40%;
   height: 100%;
-  width: 100%;
+  width: 110%;
   z-index: -1;
 }
 
 .form-body h1 {
   text-align: center;
   color: cyan;
+  font-size: larger;
+  margin-top: 27px;
 }
 
 form {
@@ -99,3 +101,15 @@ button:hover {
   border: 2px solid cyan;
   border-radius: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+  .social-icon{
+    display: none;
+  }
+
+  .contact{
+  padding-top: 1rem;
+  display: inherit;
+  }
+};
+

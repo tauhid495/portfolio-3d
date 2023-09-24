@@ -2,7 +2,6 @@
   /* background-image: url(./components/asset/bg.jpg);
   background-size: cover; */
   scrollbar-width: none;
-  scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   overflow-y: auto;
 }
@@ -10,3 +9,4 @@
 .App::-webkit-scrollbar {
   display: none;
 }
+

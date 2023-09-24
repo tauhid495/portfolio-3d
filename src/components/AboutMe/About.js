@@ -5,14 +5,14 @@ import "./aboutMe.css";
 
 const About = () => {
   return (
-    <div id="about" className=" md:h-screen w-full pt-7 md:flex items-center ">
+    <div id="about" className=" md:h-screen w-full pt-10 md:flex items-center ">
       <div className="md:w-5/12 pr-5">
         <ProfileTilt />
       </div>
       <div className="md:w-7/12">
         {/* about me description */}
         <div className="mb-4">
-          <h2 className="mb-4 text-4xl text-center font-semibold">
+          <h2 className="my-4 text-4xl text-center font-semibold">
             Get to know me!
           </h2>
           <p>

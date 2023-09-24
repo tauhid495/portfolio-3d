@@ -54,4 +54,25 @@
 
 .slider-text > h1{
   color: cyan;
+  font-size: xx-large;
+}
+.slider-text > h2{
+  color: cyan;
+  font-size: large;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .slider-text{
+    width: 70%;
+    filter: opacity(.6);
+    font-size: small;
+    margin-left: 0%;
+  }
+
+  .project2 {
+  
+  width: 30%;
+  height: 45%;
+}
 }

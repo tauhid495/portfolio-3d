@@ -52,7 +52,9 @@ const Projects = () => {
             }}
           >
             <div className="slider-text">
-              <h1>Description:</h1>
+              <h1>My Projects</h1>
+              <hr/>
+              <h2>Description:</h2>
               <p>
                 * It's a B2B full stack manufacturer website of microwave woven
                 tools.
@@ -69,13 +71,13 @@ const Projects = () => {
                 cancel order before shipping.
               </p>
               <br />
-              <h1>Technology used:</h1>
+              <h2>Technology used:</h2>
               <p>
                 ReactJs, React router, Firebase, React-firebase-hooks, Tailwind,
                 Stripe, JWT, React query, MongoDb, Heroku,Firebase Hosting.
               </p>
               <br />
-              <h1>Links:</h1>
+              <h2>Links:</h2>
               <p>
                 <a
                   target="blank"
@@ -113,7 +115,9 @@ const Projects = () => {
             }}
           >
             <div className="slider-text">
-              <h1>Description:</h1>
+              <h1>My Projects</h1>
+              <hr/>
+              <h2>Description:</h2>
               <p>
                 * It's a inventory management website of unique furnitures.
                 <br /> * Valid users can post their products, add products,
@@ -126,13 +130,13 @@ const Projects = () => {
                 <br /> * Users validity checked by using JWT
               </p>
               <br />
-              <h1>Technology used:</h1>
+              <h2>Technology used:</h2>
               <p>
                 ReactJs, React router, Firebase, React-firebase-hooks, Tailwind,
                 JWT, MongoDB, Heroku, Firebase Hosting.
               </p>
               <br />
-              <h1>Links:</h1>
+              <h2>Links:</h2>
               <p>
                 <a
                   target="blank"
@@ -170,7 +174,9 @@ const Projects = () => {
             }}
           >
             <div className="slider-text">
-              <h1>Description:</h1>
+              <h1>My Projects</h1>
+              <hr/>
+              <h2>Description:</h2>
               <p>
                 * It's a todo task listing website. <br />* Users can add tasks,
                 edit and delete tasks. <br />* Pending and completed tasks shows
@@ -178,13 +184,13 @@ const Projects = () => {
                 Quote generator added. <br />* MongoDB used for database.
               </p>
               <br />
-              <h1>Technology used:</h1>
+              <h2>Technology used:</h2>
               <p>
                 ReactJs, React router, Tailwind, DaisyUi,MongoDB, NodeJs, Render
                 Netlify.
               </p>
               <br />
-              <h1>Links:</h1>
+              <h2>Links:</h2>
               <p>
                 <a
                   target="blank"
@@ -222,7 +228,9 @@ const Projects = () => {
             }}
           >
             <div className="slider-text">
-              <h1>Description:</h1>
+              <h1>My Projects</h1>
+              <hr/>
+              <h2>Description:</h2>
               <p>
                 * It's a open blog website. <br />* Users can post blog, edit,
                 delete blogs.
@@ -232,13 +240,13 @@ const Projects = () => {
                 <br /> * MongoDB used for backend database
               </p>
               <br />
-              <h1>Technology used:</h1>
+              <h2>Technology used:</h2>
               <p>
                 ReactJs, React router, Tailwind, DaisyUi, NodeJs, MongoDB,
                 Render, Netlify.
               </p>
               <br />
-              <h1>Links:</h1>
+              <h2>Links:</h2>
               <p>
                 <a
                   target="blank"
@@ -267,7 +275,9 @@ const Projects = () => {
             }}
           >
             <div className="slider-text">
-              <h1>Description:</h1>
+              <h1>My Projects</h1>
+              <hr/>
+              <h2>Description:</h2>
               <p>
                 * It's a weather forcast app. <br />* It detects users location
                 autometically and shows current forecast. <br />* This app shows
@@ -278,10 +288,10 @@ const Projects = () => {
                 <br /> * Rechart used for heat index
               </p>
               <br />
-              <h1>Technology used:</h1>
+              <h2>Technology used:</h2>
               <p>ReactJs, React router, Tailwind, DaisyUi, Rechart, Netlify.</p>
               <br />
-              <h1>Links:</h1>
+              <h2>Links:</h2>
               <p>
                 <a
                   target="blank"
@@ -301,12 +311,37 @@ const Projects = () => {
             }}
           >
             <div className="slider-text">
-              <h1>Description:</h1>
-              <p></p>
-              <h1>Technology used:</h1>
-              <p></p>
-              <h1>Links:</h1>
-              <p></p>
+              <h1>My Projects</h1>
+              <hr/>
+              <h2>Description:</h2>
+              <p>
+                * It's a fastfood restaurent website.
+                <br />
+                * Customers can view menues or food items in varios catagories.
+                <br /> * Full online base and also offline restaurent.
+                <br /> * Customer can order online or offline.
+                <br /> * Restaurent has home delivary system.
+                <br /> * Customer can also pickup foods from restaurent.
+                <br /> * Customers can place order. Can pay by cards. Also can
+                cancel order before shipping.
+              </p>
+              <br />
+              <h2>Technology used:</h2>
+              <p>
+                WordPress, Elementor Pro, WooCommerce, Astra, Food Store, Smart
+                Slider Pro, ACF, CPT UI, Custom CSS.
+              </p>
+              <br />
+              <h2>Links:</h2>
+              <p>
+                <a
+                  target="blank"
+                  className="hover:text-primary"
+                  href="https://dev-pizzamania.pantheonsite.io/"
+                >
+                  Live Link
+                </a>{" "}
+              </p>
             </div>
           </SwiperSlide>
           <SwiperSlide
@@ -317,12 +352,37 @@ const Projects = () => {
             }}
           >
             <div className="slider-text">
-              <h1>Description:</h1>
-              <p></p>
-              <h1>Technology used:</h1>
-              <p></p>
-              <h1>Links:</h1>
-              <p></p>
+              <h1>My Projects</h1>
+              <hr/>
+              <h2>Description:</h2>
+              <p>
+                * It's an online learning platfomr.
+                <br />
+                * Students can register and create account.
+                <br /> * Every account has different dashboare.
+                <br /> * Student can buy courses, learn by video classes.
+                <br /> * They also can participate mcq exam or assignment.
+                <br /> * Course progress and total count shows dashboard.
+                <br /> * Instructors also can earn form this courses and has different dashboard.
+                <br/> Online payment method implimented.
+              </p>
+              <br />
+              <h2>Technology used:</h2>
+              <p>
+                WordPress, Elementor Pro, Tutor LMS Pro, Astra, WooCommerce, Prime
+                Slider, BkashPayment, JetPack, WordFance, Yost SEO, Custom CSS, Custom Font.
+              </p>
+              <br />
+              <h2>Links:</h2>
+              <p>
+                <a
+                  target="blank"
+                  className="hover:text-primary"
+                  href="https://www.proggalok.com/"
+                >
+                  Live Link
+                </a>{" "}
+              </p>
             </div>
           </SwiperSlide>
         </Swiper>
@@ -330,7 +390,7 @@ const Projects = () => {
 
       {/* second slider */}
       <div className="project2">
-        <div>
+        <div className="hidden md:block">
           <Mouse />
         </div>
 

@@ -12,7 +12,7 @@ const Hero = ({ setSpean }) => {
   return (
     <div
       id="hero"
-      className="md:flex items-center h-screen mx-auto md:px-5 relative overflow-hidden"
+      className="md:flex items-center md:h-screen mx-auto md:px-5 relative overflow-hidden"
     >
       <div className="md:w-1/2  z-30">
         <p className="text-4xl md:text-6xl font-semibold">
@@ -74,11 +74,11 @@ const Hero = ({ setSpean }) => {
           </div>
         </div>
       </div>
-      <div className="md:w-1/2 px-10 z-10 backdrop-blur-[2px]">
+      <div className="hidden md:block md:w-1/2 px-10 z-10 backdrop-blur-[2px]">
         <Circle />
       </div>
 
-      <div className="absolute w-full h-[250px] md:h-full top-80 md:top-14 left-0 md:left-64 z-10">
+      <div className="hidden md:block absolute w-full h-[250px] md:h-full top-80 md:top-14 left-0 md:left-64 z-10">
         <ComputerCanvas setSpean={setSpean} />
       </div>
       <div className="hidden md:block absolute w-full h-full top-0 z-0">
@@ -97,7 +97,7 @@ const Hero = ({ setSpean }) => {
       </div>
       <a
         href="#about"
-        className="absolute bottom-16 left-1/2 cursor-pointer z-50"
+        className="hidden md:block absolute bottom-16 left-1/2 cursor-pointer z-50"
       >
         <Mouse />
       </a>
