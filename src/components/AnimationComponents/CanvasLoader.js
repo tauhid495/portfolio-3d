@@ -2,11 +2,8 @@
 import { Html, useProgress } from "@react-three/drei";
 
 
-const CanvasLoader = ({ setSpean }) => {
+const CanvasLoader = () => {
     const { progress } = useProgress();
-    if (progress === 100) {
-        setSpean(false)
-    }
 
     return (
         <Html

@@ -60,7 +60,7 @@ export default class MySkills extends Component {
     };
 
     return (
-      <div id="skill" className="mb-16 md:h-screen w-full flex flex-col-reverse">
+      <div id="skill" className="my-16 md:mb-10 md:pt-24 md:h-screen w-full flex flex-col-reverse md:flex-row">
         <div className="md:w-1/2 md:px-10">
           <div className="text-xs md:text-lg">
             <h1 className="hidden md:block text-5xl font-semibold md:my-10">

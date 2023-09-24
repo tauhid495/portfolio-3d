@@ -30,7 +30,7 @@ const Computer = ({hover}) => {
   );
 };
 
-const ComputerCanvas = ({ setSpean }) => {
+const ComputerCanvas = () => {
   return (
     
       <Canvas
@@ -40,7 +40,7 @@ const ComputerCanvas = ({ setSpean }) => {
       // gl={{ preserveDrawingBuffer: true }}
       >
         {/* <spotLight position={[0, 25, 0]} angle={1.3} penumbra={1} castShadow intensity={2} shadow-bias={-0.0001} /> */}
-        <Suspense fallback={<CanvasLoader setSpean={setSpean} />}>
+        <Suspense fallback={<CanvasLoader />}>
           {/* <OrbitControls
           enableZoom={false}
           enablePan={false}

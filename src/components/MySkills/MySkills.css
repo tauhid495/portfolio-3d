@@ -1,10 +1,7 @@
 .skill-main {
   height: 100vh;
   width: 100%;
-  display: flex;
-
-  /* flex direction column reverse will for small device */
-  /* overflow: hidden; */
+  /* display: flex; */
   padding-top: 5rem;
 }
 

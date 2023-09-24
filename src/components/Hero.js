@@ -8,7 +8,7 @@ import Circle from "./AnimationComponents/Circle";
 import Mouse from "./AnimationComponents/Mouse/Mouse";
 import { Icon } from "@iconify/react";
 
-const Hero = ({ setSpean }) => {
+const Hero = () => {
   return (
     <div
       id="hero"
@@ -79,7 +79,7 @@ const Hero = ({ setSpean }) => {
       </div>
 
       <div className="hidden md:block absolute w-full h-[250px] md:h-full top-80 md:top-14 left-0 md:left-64 z-10">
-        <ComputerCanvas setSpean={setSpean} />
+        <ComputerCanvas />
       </div>
       <div className="hidden md:block absolute w-full h-full top-0 z-0">
         <Canvas>
